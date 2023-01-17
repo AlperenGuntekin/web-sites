@@ -1,0 +1,4615 @@
+/*Created By Venus Agency*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --first-color: #00386e;
+  --second-color: #009ee3;
+  --third-color: #4fb498;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.col-md-3, .col-md-6, .col-md-4, .col-md-8, .col-md-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+b {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1920px) {
+  .container {
+    max-width: 1820px;
+  }
+  /* categories start */
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo p {
+    font-size: 28px;
+    letter-spacing: -0.88px;
+    font-weight: 500;
+    color: #009ee3;
+    margin-top: 4%;
+    margin-left: 40px;
+  }
+  .logo span {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.88px;
+    color: #00386e;
+  }
+  .header-search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .input-group {
+    border-radius: 2px;
+    border: solid 1px #c0c7ce;
+    background-color: #fff;
+    width: 65%;
+    height: 45%;
+  }
+  .user-account {
+    border-radius: 2px;
+    background-color: #4fb498;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding-top: 0.5rem;
+    width: 25%;
+  }
+  .account-name h5 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .account-name a {
+    font-weight: bold;
+  }
+  a {
+    color: #fff;
+  }
+  .account-logout {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .account-logout p {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #7c8085;
+  }
+  .breadcrumb {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .icerik-breadcrumb {
+    background-color: #00386e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-right: 1%;
+  }
+  .folder-way ul {
+    display: flex;
+    list-style-type: none;
+  }
+  .folder-way li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #fff;
+  }
+  .categories-title h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .teknik-dokumanlar {
+    background-color: #0f78bf;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .egitim-dokumanlar {
+    background-color: #ffb140;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .oryantasyon-dokumanlar {
+    background-color: #f13f3a;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .egitim-videolar {
+    background-color: #283b93;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .kurulum-videolar {
+    background-color: #90c845;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .kisisel-gelisim-kitaplar {
+    background-color: #282763;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .kurumsal-dokumanlar {
+    background-color: #26abe2;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .faydali-linkler {
+    background-color: #4fb498;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .categories-name {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+  .categories-name p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #7c8085;
+    margin-top: 5%;
+  }
+  .footer {
+    background-color: #00386e;
+    margin-top: 5%;
+  }
+  .footer p {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1%;
+  }
+  .venus-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-bottom-left {
+    display: flex;
+    align-items: center;
+  }
+  .footer-bottom-left p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #7c8085;
+    margin-left: 20px;
+  }
+  .footer-bottom-left img {
+    width: 118px;
+    height: 55px;
+  }
+  .footer-bottom-right {
+    display: flex;
+    align-items: flex-start;
+  }
+  .footer-bottom-right p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    color: #7c8085;
+    margin-right: 20px;
+  }
+  .footer-bottom-right img {
+    width: 33px;
+    height: 35px;
+  }
+  /* categories end */
+  /* document start */
+
+  .document-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .general-categories a {
+    color: black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 68%;
+  }
+  .teknik-dokumanlar-icon {
+    background-color: #0f78bf;
+    padding: 2%;
+    width: 10%;
+  }
+  .egitim-dokumanlar-icon {
+    background-color: #ffb140;
+    padding: 2%;
+    width: 10%;
+  }
+  .oryantasyon-dokumanlar-icon {
+    background-color: #f13f3a;
+    padding: 2%;
+    width: 10%;
+  }
+  .egitim-videolar-icon {
+    background-color: #283b93;
+    padding: 2%;
+    width: 10%;
+  }
+  .kurulum-videolar-icon {
+    background-color: #90c845;
+    padding: 2%;
+    width: 10%;
+  }
+  .kisisel-gelisim-icon {
+    background-color: #282763;
+    padding: 2%;
+    width: 10%;
+  }
+  .kurumsal-dokumanlar-icon {
+    background-color: #26abe2;
+    padding: 2%;
+    width: 10%;
+  }
+  .faydali-linkler-icon {
+    background-color: #4fb498;
+    padding: 2%;
+    width: 10%;
+  }
+  .general-categories li {
+    font-size: 14px;
+    font-weight: 600;
+    
+    color: #000;
+    margin-left: 20px;
+  }
+  .book-photo {
+    margin-top: 33%;
+    width: 100%;
+  }
+  .document-info {
+    background-color: #4fb498;
+    color: white;
+    margin-top: 5%;
+    width: 90%;
+    padding: 2%;
+  }
+  .document-info-view {
+    display: flex;
+    align-items: baseline;
+  }
+  .document-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .document-info h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .document-name {
+    border-bottom: solid 1px #c0c7ce;
+    margin-top: 5%;
+  }
+  .document-name h3 {
+    color: #3c4142;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5%;
+    width: 90%;
+  }
+  .document-name p {
+    font-size: 16px;
+    color: #3c4142;
+    width: 90%;
+    padding-bottom: 5%;
+  }
+  .teknik-dokumanlari-active {
+    background-color: #0f78bf;
+    color: #fff;
+  }
+  .teknik-dokumanlari-active li{
+    color: #fff;
+  }
+  .egitim-dokumanlari-active{
+    background-color: #ffb140;
+  }
+  .egitim-dokumanlari-active li{
+    color: #fff;
+  }
+  .oryantasyon-dokumanlari-active {
+    background-color: #f13f3a;
+  }
+  .oryantasyon-dokumanlari-active li{
+    color: #fff;
+  }
+  .egitim-videolari-active {
+    background-color: #283b93;
+  }
+  .egitim-videolari-active li{
+    color: #fff;
+  }
+  .kurulum-videolari-active {
+    background-color: #90c845;
+  }
+  .kurulum-videolari-active li{
+    color: #fff;
+  }
+  .gelisim-kitaplari-active {
+    background-color: #282763;
+  }
+  .gelisim-kitaplari-active li{
+    color: #fff;
+  }
+  .kurumsal-dokumanlar-active {
+    background-color: #26abe2;
+  }
+  .kurumsal-dokumanlar-active li{
+    color: #fff;
+  }
+  .faydali-linkler-active {
+    background-color: #4fb498;
+  }
+  .faydali-linkler-active li{
+    color: #fff;
+  }
+
+    /* document end */
+  /* education start */
+  .videos-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .video-name {
+    border-bottom: solid 1px #c0c7ce;
+    margin-top: 5%;
+  }
+  .video-name h3 {
+    color: #3c4142;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5%;
+    width: 90%;
+  }
+  .video-name p {
+    font-size: 16px;
+    color: #3c4142;
+    width: 90%;
+  }
+  .document-pdf {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+  .document-pdf p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-left: 10%;
+    padding-bottom: 5%;
+  }
+  .fa-regular {
+    font-size: 25px;
+    color: #00a2d3;
+  }
+  .pagination-container ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 5%;
+  }
+  .pagination-container li {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3c4142;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pagination-prev , .pagination-next {
+    border: solid 2px #00a2d3;
+    border-radius: 20px;
+    width: 55px;
+    height: 55px;
+  }
+  .pagination-div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .fa-angle-left , .fa-angle-right {
+    color: #00a2d3;
+  }
+/* education end */
+/* links start */
+.links-heading {
+  display: flex;
+  background-color: #7c8085;
+  height: fit-content;
+}
+.links-heading h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  border-left: solid 1px #c0c7ce;
+  display: flex;
+  padding-left: 20px;
+  margin-top: 7px;
+}
+.links-contents {
+  display: flex;
+  height: fit-content;
+  border-bottom: solid 1px #c0c7ce;
+}
+.direct-link {
+  border-left: solid 1px #c0c7ce;
+}
+.links-title h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #3c4142;
+  margin-top: 3%;
+}
+.links-title p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #3c4142;
+}
+.direct-link p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00a2d3;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.links-container {
+  display: flex;
+  flex-direction: column;
+}
+/* links end */
+/* login start */
+.login-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.login-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-login {
+  border-bottom: solid 1px #c0c7ce;
+}
+.forgot-pass {
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 2%;
+}
+.sign-up p {
+  font-size: 14px;
+  color: #7c8085;
+  margin-left: 10px;
+}
+.forgot-pass p {
+  font-size: 14px;
+  color: #7c8085;
+  margin-left: 10px;
+}
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+.form-control-1 {
+  margin-top: 5%;
+  width: 84%;
+  height: 64.1px;
+  padding: 20px 379px 23.1px 30px;
+  border-radius: 2px;
+  border: solid 1px #bababa;
+  background-color: #fff;
+  font-size: 18px;
+  color: #7c8085;
+}
+.recaptcha-kullanm {
+  width: 306.8px;
+  height: 82px;
+  margin: 33px 4px 64px 120.2px;
+}
+.btn-success {
+  width: 84%;
+  height: 62px;
+  background-color: #4fb498;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+/* login end */
+}
+@media only screen and (min-width: 1601px) and (max-width: 1919px) {
+  .container {
+    max-width: 1620px;
+  }
+    /* categories start */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .logo p {
+      font-size: 28px;
+      letter-spacing: -0.88px;
+      font-weight: 500;
+      color: #009ee3;
+      margin-top: 4%;
+      margin-left: 40px;
+    }
+    .logo span {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: -0.88px;
+      color: #00386e;
+    }
+    .header-search {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .input-group {
+      border-radius: 2px;
+      border: solid 1px #c0c7ce;
+      background-color: #fff;
+      width: 65%;
+      height: 45%;
+    }
+    .user-account {
+      border-radius: 2px;
+      background-color: #4fb498;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-top: 0.5rem;
+      width: 25%;
+    }
+    .account-name h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .account-name a {
+      font-weight: bold;
+    }
+    a {
+      color: #fff;
+    }
+    .account-logout {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .account-logout p {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #7c8085;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .icerik-breadcrumb {
+      background-color: #00386e;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1%;
+      padding-right: 1%;
+    }
+    .folder-way ul {
+      display: flex;
+      list-style-type: none;
+    }
+    .folder-way li {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      color: #fff;
+    }
+    .categories-title h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .teknik-dokumanlar {
+      background-color: #0f78bf;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-dokumanlar {
+      background-color: #ffb140;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .oryantasyon-dokumanlar {
+      background-color: #f13f3a;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-videolar {
+      background-color: #283b93;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurulum-videolar {
+      background-color: #90c845;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kisisel-gelisim-kitaplar {
+      background-color: #282763;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurumsal-dokumanlar {
+      background-color: #26abe2;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .faydali-linkler {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .categories-name {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    }
+    .categories-name p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-top: 5%;
+    }
+    .footer {
+      background-color: #00386e;
+      margin-top: 5%;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1%;
+    }
+    .venus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-bottom-left {
+      display: flex;
+      align-items: center;
+    }
+    .footer-bottom-left p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-left: 20px;
+    }
+    .footer-bottom-left img {
+      width: 118px;
+      height: 55px;
+    }
+    .footer-bottom-right {
+      display: flex;
+      align-items: flex-start;
+    }
+    .footer-bottom-right p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      color: #7c8085;
+      margin-right: 20px;
+    }
+    .footer-bottom-right img {
+      width: 33px;
+      height: 35px;
+    }
+    /* categories end */
+    /* document start */
+  
+    .document-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .general-categories a {
+      color: black;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      width: 68%;
+    }
+    .teknik-dokumanlar-icon {
+      background-color: #0f78bf;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-dokumanlar-icon {
+      background-color: #ffb140;
+      padding: 2%;
+      width: 10%;
+    }
+    .oryantasyon-dokumanlar-icon {
+      background-color: #f13f3a;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-videolar-icon {
+      background-color: #283b93;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurulum-videolar-icon {
+      background-color: #90c845;
+      padding: 2%;
+      width: 10%;
+    }
+    .kisisel-gelisim-icon {
+      background-color: #282763;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurumsal-dokumanlar-icon {
+      background-color: #26abe2;
+      padding: 2%;
+      width: 10%;
+    }
+    .faydali-linkler-icon {
+      background-color: #4fb498;
+      padding: 2%;
+      width: 10%;
+    }
+    .general-categories li {
+      font-size: 14px;
+      font-weight: 600;
+      
+      color: #000;
+      margin-left: 20px;
+    }
+    .book-photo {
+      margin-top: 33%;
+      width: 100%;
+    }
+    .document-info {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .document-info-view {
+      display: flex;
+      align-items: baseline;
+    }
+    .document-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .document-info h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .document-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .document-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .document-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+      padding-bottom: 5%;
+    }
+    .teknik-dokumanlari-active {
+      background-color: #0f78bf;
+      color: #fff;
+    }
+    .teknik-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-dokumanlari-active{
+      background-color: #ffb140;
+    }
+    .egitim-dokumanlari-active li{
+      color: #fff;
+    }
+    .oryantasyon-dokumanlari-active {
+      background-color: #f13f3a;
+    }
+    .oryantasyon-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-videolari-active {
+      background-color: #283b93;
+    }
+    .egitim-videolari-active li{
+      color: #fff;
+    }
+    .kurulum-videolari-active {
+      background-color: #90c845;
+    }
+    .kurulum-videolari-active li{
+      color: #fff;
+    }
+    .gelisim-kitaplari-active {
+      background-color: #282763;
+    }
+    .gelisim-kitaplari-active li{
+      color: #fff;
+    }
+    .kurumsal-dokumanlar-active {
+      background-color: #26abe2;
+    }
+    .kurumsal-dokumanlar-active li{
+      color: #fff;
+    }
+    .faydali-linkler-active {
+      background-color: #4fb498;
+    }
+    .faydali-linkler-active li{
+      color: #fff;
+    }
+  
+      /* document end */
+    /* education start */
+    .videos-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .video-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .video-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .video-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+    }
+    .document-pdf {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
+    .document-pdf p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00a2d3;
+      margin-left: 10%;
+      padding-bottom: 5%;
+    }
+    .fa-regular {
+      font-size: 25px;
+      color: #00a2d3;
+    }
+    .pagination-container ul {
+      display: flex;
+      list-style-type: none;
+      margin-top: 5%;
+    }
+    .pagination-container li {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #3c4142;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination-prev , .pagination-next {
+      border: solid 2px #00a2d3;
+      border-radius: 20px;
+      width: 55px;
+      height: 55px;
+    }
+    .pagination-div {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .fa-angle-left , .fa-angle-right {
+      color: #00a2d3;
+    }
+  /* education end */
+  /* links start */
+  .links-heading {
+    display: flex;
+    background-color: #7c8085;
+    height: fit-content;
+  }
+  .links-heading h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-left: solid 1px #c0c7ce;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  .links-contents {
+    display: flex;
+    height: fit-content;
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .direct-link {
+    border-left: solid 1px #c0c7ce;
+  }
+  .links-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3c4142;
+    margin-top: 3%;
+  }
+  .links-title p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3c4142;
+  }
+  .direct-link p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* links end */
+  /* login start */
+  .login-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-login {
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .forgot-pass {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+  .sign-up p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+  .forgot-pass p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+  .form-control-1 {
+    margin-top: 5%;
+    width: 84%;
+    height: 64.1px;
+    padding: 20px 379px 23.1px 30px;
+    border-radius: 2px;
+    border: solid 1px #bababa;
+    background-color: #fff;
+    font-size: 18px;
+    color: #7c8085;
+  }
+  .recaptcha-kullanm {
+    width: 306.8px;
+    height: 82px;
+    margin: 33px 4px 64px 120.2px;
+  }
+  .btn-success {
+    width: 84%;
+    height: 62px;
+    background-color: #4fb498;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* login end */
+}
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  .container {
+    max-width: 1460px;
+  }
+    /* categories start */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .logo p {
+      font-size: 28px;
+      letter-spacing: -0.88px;
+      font-weight: 500;
+      color: #009ee3;
+      margin-top: 4%;
+      margin-left: 40px;
+    }
+    .logo span {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: -0.88px;
+      color: #00386e;
+    }
+    .header-search {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .input-group {
+      border-radius: 2px;
+      border: solid 1px #c0c7ce;
+      background-color: #fff;
+      width: 65%;
+      height: 45%;
+    }
+    .user-account {
+      border-radius: 2px;
+      background-color: #4fb498;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-top: 0.5rem;
+      width: 25%;
+    }
+    .account-name h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .account-name a {
+      font-weight: bold;
+    }
+    a {
+      color: #fff;
+    }
+    .account-logout {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .account-logout p {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #7c8085;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .icerik-breadcrumb {
+      background-color: #00386e;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1%;
+      padding-right: 1%;
+    }
+    .folder-way ul {
+      display: flex;
+      list-style-type: none;
+    }
+    .folder-way li {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      color: #fff;
+    }
+    .categories-title h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .teknik-dokumanlar {
+      background-color: #0f78bf;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-dokumanlar {
+      background-color: #ffb140;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .oryantasyon-dokumanlar {
+      background-color: #f13f3a;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-videolar {
+      background-color: #283b93;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurulum-videolar {
+      background-color: #90c845;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kisisel-gelisim-kitaplar {
+      background-color: #282763;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurumsal-dokumanlar {
+      background-color: #26abe2;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .faydali-linkler {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .categories-name {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    }
+    .categories-name p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-top: 5%;
+    }
+    .footer {
+      background-color: #00386e;
+      margin-top: 5%;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1%;
+    }
+    .venus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-bottom-left {
+      display: flex;
+      align-items: center;
+    }
+    .footer-bottom-left p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-left: 20px;
+    }
+    .footer-bottom-left img {
+      width: 118px;
+      height: 55px;
+    }
+    .footer-bottom-right {
+      display: flex;
+      align-items: flex-start;
+    }
+    .footer-bottom-right p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      color: #7c8085;
+      margin-right: 20px;
+    }
+    .footer-bottom-right img {
+      width: 33px;
+      height: 35px;
+    }
+    /* categories end */
+    /* document start */
+  
+    .document-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .general-categories a {
+      color: black;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      width: 68%;
+    }
+    .teknik-dokumanlar-icon {
+      background-color: #0f78bf;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-dokumanlar-icon {
+      background-color: #ffb140;
+      padding: 2%;
+      width: 10%;
+    }
+    .oryantasyon-dokumanlar-icon {
+      background-color: #f13f3a;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-videolar-icon {
+      background-color: #283b93;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurulum-videolar-icon {
+      background-color: #90c845;
+      padding: 2%;
+      width: 10%;
+    }
+    .kisisel-gelisim-icon {
+      background-color: #282763;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurumsal-dokumanlar-icon {
+      background-color: #26abe2;
+      padding: 2%;
+      width: 10%;
+    }
+    .faydali-linkler-icon {
+      background-color: #4fb498;
+      padding: 2%;
+      width: 10%;
+    }
+    .general-categories li {
+      font-size: 14px;
+      font-weight: 600;
+      
+      color: #000;
+      margin-left: 20px;
+    }
+    .book-photo {
+      margin-top: 33%;
+      width: 100%;
+    }
+    .document-info {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .document-info-view {
+      display: flex;
+      align-items: baseline;
+    }
+    .document-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .document-info h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .document-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .document-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .document-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+      padding-bottom: 5%;
+    }
+    .teknik-dokumanlari-active {
+      background-color: #0f78bf;
+      color: #fff;
+    }
+    .teknik-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-dokumanlari-active{
+      background-color: #ffb140;
+    }
+    .egitim-dokumanlari-active li{
+      color: #fff;
+    }
+    .oryantasyon-dokumanlari-active {
+      background-color: #f13f3a;
+    }
+    .oryantasyon-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-videolari-active {
+      background-color: #283b93;
+    }
+    .egitim-videolari-active li{
+      color: #fff;
+    }
+    .kurulum-videolari-active {
+      background-color: #90c845;
+    }
+    .kurulum-videolari-active li{
+      color: #fff;
+    }
+    .gelisim-kitaplari-active {
+      background-color: #282763;
+    }
+    .gelisim-kitaplari-active li{
+      color: #fff;
+    }
+    .kurumsal-dokumanlar-active {
+      background-color: #26abe2;
+    }
+    .kurumsal-dokumanlar-active li{
+      color: #fff;
+    }
+    .faydali-linkler-active {
+      background-color: #4fb498;
+    }
+    .faydali-linkler-active li{
+      color: #fff;
+    }
+  
+      /* document end */
+    /* education start */
+    .videos-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .video-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .video-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .video-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+    }
+    .document-pdf {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
+    .document-pdf p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00a2d3;
+      margin-left: 10%;
+      padding-bottom: 5%;
+    }
+    .fa-regular {
+      font-size: 25px;
+      color: #00a2d3;
+    }
+    .pagination-container ul {
+      display: flex;
+      list-style-type: none;
+      margin-top: 5%;
+    }
+    .pagination-container li {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #3c4142;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination-prev , .pagination-next {
+      border: solid 2px #00a2d3;
+      border-radius: 20px;
+      width: 55px;
+      height: 55px;
+    }
+    .pagination-div {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .fa-angle-left , .fa-angle-right {
+      color: #00a2d3;
+    }
+  /* education end */
+  /* links start */
+  .links-heading {
+    display: flex;
+    background-color: #7c8085;
+    height: fit-content;
+  }
+  .links-heading h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-left: solid 1px #c0c7ce;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  .links-contents {
+    display: flex;
+    height: fit-content;
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .direct-link {
+    border-left: solid 1px #c0c7ce;
+  }
+  .links-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3c4142;
+    margin-top: 3%;
+  }
+  .links-title p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3c4142;
+  }
+  .direct-link p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* links end */
+  /* login start */
+  .login-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-login {
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .forgot-pass {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+  .sign-up p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+  .forgot-pass p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+  .form-control-1 {
+    margin-top: 5%;
+    width: 84%;
+    height: 64.1px;
+    padding: 20px 379px 23.1px 30px;
+    border-radius: 2px;
+    border: solid 1px #bababa;
+    background-color: #fff;
+    font-size: 18px;
+    color: #7c8085;
+  }
+  .recaptcha-kullanm {
+    width: 306.8px;
+    height: 82px;
+    margin: 33px 4px 64px 120.2px;
+  }
+  .btn-success {
+    width: 84%;
+    height: 62px;
+    background-color: #4fb498;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* login end */
+}
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+  .container {
+    max-width: 1300px;
+  }
+    /* categories start */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .logo p {
+      font-size: 28px;
+      letter-spacing: -0.88px;
+      font-weight: 500;
+      color: #009ee3;
+      margin-top: 4%;
+      margin-left: 40px;
+    }
+    .logo span {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: -0.88px;
+      color: #00386e;
+    }
+    .header-search {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .input-group {
+      border-radius: 2px;
+      border: solid 1px #c0c7ce;
+      background-color: #fff;
+      width: 65%;
+      height: 45%;
+    }
+    .user-account {
+      border-radius: 2px;
+      background-color: #4fb498;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-top: 0.5rem;
+      width: 25%;
+    }
+    .account-name h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .account-name a {
+      font-weight: bold;
+    }
+    a {
+      color: #fff;
+    }
+    .account-logout {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .account-logout p {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #7c8085;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .icerik-breadcrumb {
+      background-color: #00386e;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1%;
+      padding-right: 1%;
+    }
+    .folder-way ul {
+      display: flex;
+      list-style-type: none;
+    }
+    .folder-way li {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      color: #fff;
+    }
+    .categories-title h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .teknik-dokumanlar {
+      background-color: #0f78bf;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-dokumanlar {
+      background-color: #ffb140;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .oryantasyon-dokumanlar {
+      background-color: #f13f3a;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-videolar {
+      background-color: #283b93;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurulum-videolar {
+      background-color: #90c845;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kisisel-gelisim-kitaplar {
+      background-color: #282763;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurumsal-dokumanlar {
+      background-color: #26abe2;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .faydali-linkler {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .categories-name {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    }
+    .categories-name p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-top: 5%;
+    }
+    .footer {
+      background-color: #00386e;
+      margin-top: 5%;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1%;
+    }
+    .venus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-bottom-left {
+      display: flex;
+      align-items: center;
+    }
+    .footer-bottom-left p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-left: 20px;
+    }
+    .footer-bottom-left img {
+      width: 118px;
+      height: 55px;
+    }
+    .footer-bottom-right {
+      display: flex;
+      align-items: flex-start;
+    }
+    .footer-bottom-right p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      color: #7c8085;
+      margin-right: 20px;
+    }
+    .footer-bottom-right img {
+      width: 33px;
+      height: 35px;
+    }
+    /* categories end */
+    /* document start */
+  
+    .document-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .general-categories a {
+      color: black;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      width: 68%;
+    }
+    .teknik-dokumanlar-icon {
+      background-color: #0f78bf;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-dokumanlar-icon {
+      background-color: #ffb140;
+      padding: 2%;
+      width: 10%;
+    }
+    .oryantasyon-dokumanlar-icon {
+      background-color: #f13f3a;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-videolar-icon {
+      background-color: #283b93;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurulum-videolar-icon {
+      background-color: #90c845;
+      padding: 2%;
+      width: 10%;
+    }
+    .kisisel-gelisim-icon {
+      background-color: #282763;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurumsal-dokumanlar-icon {
+      background-color: #26abe2;
+      padding: 2%;
+      width: 10%;
+    }
+    .faydali-linkler-icon {
+      background-color: #4fb498;
+      padding: 2%;
+      width: 10%;
+    }
+    .general-categories li {
+      font-size: 14px;
+      font-weight: 600;
+      
+      color: #000;
+      margin-left: 20px;
+    }
+    .book-photo {
+      margin-top: 33%;
+      width: 100%;
+    }
+    .document-info {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .document-info-view {
+      display: flex;
+      align-items: baseline;
+    }
+    .document-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .document-info h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .document-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .document-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .document-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+      padding-bottom: 5%;
+    }
+    .teknik-dokumanlari-active {
+      background-color: #0f78bf;
+      color: #fff;
+    }
+    .teknik-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-dokumanlari-active{
+      background-color: #ffb140;
+    }
+    .egitim-dokumanlari-active li{
+      color: #fff;
+    }
+    .oryantasyon-dokumanlari-active {
+      background-color: #f13f3a;
+    }
+    .oryantasyon-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-videolari-active {
+      background-color: #283b93;
+    }
+    .egitim-videolari-active li{
+      color: #fff;
+    }
+    .kurulum-videolari-active {
+      background-color: #90c845;
+    }
+    .kurulum-videolari-active li{
+      color: #fff;
+    }
+    .gelisim-kitaplari-active {
+      background-color: #282763;
+    }
+    .gelisim-kitaplari-active li{
+      color: #fff;
+    }
+    .kurumsal-dokumanlar-active {
+      background-color: #26abe2;
+    }
+    .kurumsal-dokumanlar-active li{
+      color: #fff;
+    }
+    .faydali-linkler-active {
+      background-color: #4fb498;
+    }
+    .faydali-linkler-active li{
+      color: #fff;
+    }
+  
+      /* document end */
+    /* education start */
+    .videos-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .video-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .video-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .video-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+    }
+    .document-pdf {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
+    .document-pdf p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00a2d3;
+      margin-left: 10%;
+      padding-bottom: 5%;
+    }
+    .fa-regular {
+      font-size: 25px;
+      color: #00a2d3;
+    }
+    .pagination-container ul {
+      display: flex;
+      list-style-type: none;
+      margin-top: 5%;
+    }
+    .pagination-container li {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #3c4142;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination-prev , .pagination-next {
+      border: solid 2px #00a2d3;
+      border-radius: 20px;
+      width: 55px;
+      height: 55px;
+    }
+    .pagination-div {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .fa-angle-left , .fa-angle-right {
+      color: #00a2d3;
+    }
+  /* education end */
+  /* links start */
+  .links-heading {
+    display: flex;
+    background-color: #7c8085;
+    height: fit-content;
+  }
+  .links-heading h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-left: solid 1px #c0c7ce;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  .links-contents {
+    display: flex;
+    height: fit-content;
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .direct-link {
+    border-left: solid 1px #c0c7ce;
+  }
+  .links-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3c4142;
+    margin-top: 3%;
+  }
+  .links-title p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3c4142;
+  }
+  .direct-link p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* links end */
+  /* login start */
+  .login-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-login {
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .forgot-pass {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+  .sign-up p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+  .forgot-pass p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+  .form-control-1 {
+    margin-top: 5%;
+    width: 84%;
+    height: 64.1px;
+    padding: 20px 379px 23.1px 30px;
+    border-radius: 2px;
+    border: solid 1px #bababa;
+    background-color: #fff;
+    font-size: 18px;
+    color: #7c8085;
+  }
+  .recaptcha-kullanm {
+    width: 306.8px;
+    height: 82px;
+    margin: 33px 4px 64px 120.2px;
+  }
+  .btn-success {
+    width: 84%;
+    height: 62px;
+    background-color: #4fb498;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* login end */
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    max-width: 1244px;
+  }
+    /* categories start */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .logo p {
+      font-size: 28px;
+      letter-spacing: -0.88px;
+      font-weight: 500;
+      color: #009ee3;
+      margin-top: 4%;
+      margin-left: 40px;
+    }
+    .logo span {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: -0.88px;
+      color: #00386e;
+    }
+    .header-search {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .input-group {
+      border-radius: 2px;
+      border: solid 1px #c0c7ce;
+      background-color: #fff;
+      width: 65%;
+      height: 45%;
+    }
+    .user-account {
+      border-radius: 2px;
+      background-color: #4fb498;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-top: 0.5rem;
+      width: 25%;
+    }
+    .account-name h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .account-name a {
+      font-weight: bold;
+    }
+    a {
+      color: #fff;
+    }
+    .account-logout {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .account-logout p {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #7c8085;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .icerik-breadcrumb {
+      background-color: #00386e;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1%;
+      padding-right: 1%;
+    }
+    .folder-way ul {
+      display: flex;
+      list-style-type: none;
+    }
+    .folder-way li {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      color: #fff;
+    }
+    .categories-title h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .teknik-dokumanlar {
+      background-color: #0f78bf;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-dokumanlar {
+      background-color: #ffb140;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .oryantasyon-dokumanlar {
+      background-color: #f13f3a;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-videolar {
+      background-color: #283b93;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurulum-videolar {
+      background-color: #90c845;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kisisel-gelisim-kitaplar {
+      background-color: #282763;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurumsal-dokumanlar {
+      background-color: #26abe2;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .faydali-linkler {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .categories-name {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    }
+    .categories-name p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-top: 5%;
+    }
+    .footer {
+      background-color: #00386e;
+      margin-top: 5%;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1%;
+    }
+    .venus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-bottom-left {
+      display: flex;
+      align-items: center;
+    }
+    .footer-bottom-left p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-left: 20px;
+    }
+    .footer-bottom-left img {
+      width: 118px;
+      height: 55px;
+    }
+    .footer-bottom-right {
+      display: flex;
+      align-items: flex-start;
+    }
+    .footer-bottom-right p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      color: #7c8085;
+      margin-right: 20px;
+    }
+    .footer-bottom-right img {
+      width: 33px;
+      height: 35px;
+    }
+    /* categories end */
+    /* document start */
+  
+    .document-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .general-categories a {
+      color: black;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      width: 68%;
+    }
+    .teknik-dokumanlar-icon {
+      background-color: #0f78bf;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-dokumanlar-icon {
+      background-color: #ffb140;
+      padding: 2%;
+      width: 10%;
+    }
+    .oryantasyon-dokumanlar-icon {
+      background-color: #f13f3a;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-videolar-icon {
+      background-color: #283b93;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurulum-videolar-icon {
+      background-color: #90c845;
+      padding: 2%;
+      width: 10%;
+    }
+    .kisisel-gelisim-icon {
+      background-color: #282763;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurumsal-dokumanlar-icon {
+      background-color: #26abe2;
+      padding: 2%;
+      width: 10%;
+    }
+    .faydali-linkler-icon {
+      background-color: #4fb498;
+      padding: 2%;
+      width: 10%;
+    }
+    .general-categories li {
+      font-size: 14px;
+      font-weight: 600;
+      
+      color: #000;
+      margin-left: 20px;
+    }
+    .book-photo {
+      margin-top: 33%;
+      width: 100%;
+    }
+    .document-info {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .document-info-view {
+      display: flex;
+      align-items: baseline;
+    }
+    .document-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .document-info h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .document-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .document-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .document-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+      padding-bottom: 5%;
+    }
+    .teknik-dokumanlari-active {
+      background-color: #0f78bf;
+      color: #fff;
+    }
+    .teknik-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-dokumanlari-active{
+      background-color: #ffb140;
+    }
+    .egitim-dokumanlari-active li{
+      color: #fff;
+    }
+    .oryantasyon-dokumanlari-active {
+      background-color: #f13f3a;
+    }
+    .oryantasyon-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-videolari-active {
+      background-color: #283b93;
+    }
+    .egitim-videolari-active li{
+      color: #fff;
+    }
+    .kurulum-videolari-active {
+      background-color: #90c845;
+    }
+    .kurulum-videolari-active li{
+      color: #fff;
+    }
+    .gelisim-kitaplari-active {
+      background-color: #282763;
+    }
+    .gelisim-kitaplari-active li{
+      color: #fff;
+    }
+    .kurumsal-dokumanlar-active {
+      background-color: #26abe2;
+    }
+    .kurumsal-dokumanlar-active li{
+      color: #fff;
+    }
+    .faydali-linkler-active {
+      background-color: #4fb498;
+    }
+    .faydali-linkler-active li{
+      color: #fff;
+    }
+  
+      /* document end */
+    /* education start */
+    .videos-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .video-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .video-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .video-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+    }
+    .document-pdf {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
+    .document-pdf p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00a2d3;
+      margin-left: 10%;
+      padding-bottom: 5%;
+    }
+    .fa-regular {
+      font-size: 25px;
+      color: #00a2d3;
+    }
+    .pagination-container ul {
+      display: flex;
+      list-style-type: none;
+      margin-top: 5%;
+    }
+    .pagination-container li {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #3c4142;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination-prev , .pagination-next {
+      border: solid 2px #00a2d3;
+      border-radius: 20px;
+      width: 55px;
+      height: 55px;
+    }
+    .pagination-div {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .fa-angle-left , .fa-angle-right {
+      color: #00a2d3;
+    }
+  /* education end */
+  /* links start */
+  .links-heading {
+    display: flex;
+    background-color: #7c8085;
+    height: fit-content;
+  }
+  .links-heading h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-left: solid 1px #c0c7ce;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  .links-contents {
+    display: flex;
+    height: fit-content;
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .direct-link {
+    border-left: solid 1px #c0c7ce;
+  }
+  .links-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3c4142;
+    margin-top: 3%;
+  }
+  .links-title p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3c4142;
+  }
+  .direct-link p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* links end */
+  /* login start */
+  .login-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-login {
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .forgot-pass {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+  .sign-up p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+  .forgot-pass p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+  .form-control-1 {
+    margin-top: 5%;
+    width: 84%;
+    height: 64.1px;
+    padding: 20px 379px 23.1px 30px;
+    border-radius: 2px;
+    border: solid 1px #bababa;
+    background-color: #fff;
+    font-size: 18px;
+    color: #7c8085;
+  }
+  .recaptcha-kullanm {
+    width: 306.8px;
+    height: 82px;
+    margin: 33px 4px 64px 120.2px;
+  }
+  .btn-success {
+    width: 84%;
+    height: 62px;
+    background-color: #4fb498;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* login end */
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 98%;
+  }
+    /* categories start */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .logo p {
+      font-size: 28px;
+      letter-spacing: -0.88px;
+      font-weight: 500;
+      color: #009ee3;
+      margin-top: 4%;
+      margin-left: 40px;
+    }
+    .logo span {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: -0.88px;
+      color: #00386e;
+    }
+    .header-search {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .input-group {
+      border-radius: 2px;
+      border: solid 1px #c0c7ce;
+      background-color: #fff;
+      width: 65%;
+      height: 45%;
+    }
+    .user-account {
+      border-radius: 2px;
+      background-color: #4fb498;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-top: 0.5rem;
+      width: 25%;
+    }
+    .account-name h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .account-name a {
+      font-weight: bold;
+    }
+    a {
+      color: #fff;
+    }
+    .account-logout {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .account-logout p {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #7c8085;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .icerik-breadcrumb {
+      background-color: #00386e;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1%;
+      padding-right: 1%;
+    }
+    .folder-way ul {
+      display: flex;
+      list-style-type: none;
+    }
+    .folder-way li {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      color: #fff;
+    }
+    .categories-title h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .teknik-dokumanlar {
+      background-color: #0f78bf;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-dokumanlar {
+      background-color: #ffb140;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .oryantasyon-dokumanlar {
+      background-color: #f13f3a;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-videolar {
+      background-color: #283b93;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurulum-videolar {
+      background-color: #90c845;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kisisel-gelisim-kitaplar {
+      background-color: #282763;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurumsal-dokumanlar {
+      background-color: #26abe2;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .faydali-linkler {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .categories-name {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    }
+    .categories-name p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-top: 5%;
+    }
+    .footer {
+      background-color: #00386e;
+      margin-top: 5%;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1%;
+    }
+    .venus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-bottom-left {
+      display: flex;
+      align-items: center;
+    }
+    .footer-bottom-left p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-left: 20px;
+    }
+    .footer-bottom-left img {
+      width: 118px;
+      height: 55px;
+    }
+    .footer-bottom-right {
+      display: flex;
+      align-items: flex-start;
+    }
+    .footer-bottom-right p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      color: #7c8085;
+      margin-right: 20px;
+    }
+    .footer-bottom-right img {
+      width: 33px;
+      height: 35px;
+    }
+    /* categories end */
+    /* document start */
+  
+    .document-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .general-categories a {
+      color: black;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      width: 68%;
+    }
+    .teknik-dokumanlar-icon {
+      background-color: #0f78bf;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-dokumanlar-icon {
+      background-color: #ffb140;
+      padding: 2%;
+      width: 10%;
+    }
+    .oryantasyon-dokumanlar-icon {
+      background-color: #f13f3a;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-videolar-icon {
+      background-color: #283b93;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurulum-videolar-icon {
+      background-color: #90c845;
+      padding: 2%;
+      width: 10%;
+    }
+    .kisisel-gelisim-icon {
+      background-color: #282763;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurumsal-dokumanlar-icon {
+      background-color: #26abe2;
+      padding: 2%;
+      width: 10%;
+    }
+    .faydali-linkler-icon {
+      background-color: #4fb498;
+      padding: 2%;
+      width: 10%;
+    }
+    .general-categories li {
+      font-size: 14px;
+      font-weight: 600;
+      
+      color: #000;
+      margin-left: 20px;
+    }
+    .book-photo {
+      margin-top: 33%;
+      width: 100%;
+    }
+    .document-info {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .document-info-view {
+      display: flex;
+      align-items: baseline;
+    }
+    .document-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .document-info h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .document-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .document-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .document-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+      padding-bottom: 5%;
+    }
+    .teknik-dokumanlari-active {
+      background-color: #0f78bf;
+      color: #fff;
+    }
+    .teknik-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-dokumanlari-active{
+      background-color: #ffb140;
+    }
+    .egitim-dokumanlari-active li{
+      color: #fff;
+    }
+    .oryantasyon-dokumanlari-active {
+      background-color: #f13f3a;
+    }
+    .oryantasyon-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-videolari-active {
+      background-color: #283b93;
+    }
+    .egitim-videolari-active li{
+      color: #fff;
+    }
+    .kurulum-videolari-active {
+      background-color: #90c845;
+    }
+    .kurulum-videolari-active li{
+      color: #fff;
+    }
+    .gelisim-kitaplari-active {
+      background-color: #282763;
+    }
+    .gelisim-kitaplari-active li{
+      color: #fff;
+    }
+    .kurumsal-dokumanlar-active {
+      background-color: #26abe2;
+    }
+    .kurumsal-dokumanlar-active li{
+      color: #fff;
+    }
+    .faydali-linkler-active {
+      background-color: #4fb498;
+    }
+    .faydali-linkler-active li{
+      color: #fff;
+    }
+  
+      /* document end */
+    /* education start */
+    .videos-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .video-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .video-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .video-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+    }
+    .document-pdf {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
+    .document-pdf p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00a2d3;
+      margin-left: 10%;
+      padding-bottom: 5%;
+    }
+    .fa-regular {
+      font-size: 25px;
+      color: #00a2d3;
+    }
+    .pagination-container ul {
+      display: flex;
+      list-style-type: none;
+      margin-top: 5%;
+    }
+    .pagination-container li {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #3c4142;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination-prev , .pagination-next {
+      border: solid 2px #00a2d3;
+      border-radius: 20px;
+      width: 55px;
+      height: 55px;
+    }
+    .pagination-div {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .fa-angle-left , .fa-angle-right {
+      color: #00a2d3;
+    }
+  /* education end */
+  /* links start */
+  .links-heading {
+    display: flex;
+    background-color: #7c8085;
+    height: fit-content;
+  }
+  .links-heading h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-left: solid 1px #c0c7ce;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  .links-contents {
+    display: flex;
+    height: fit-content;
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .direct-link {
+    border-left: solid 1px #c0c7ce;
+  }
+  .links-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3c4142;
+    margin-top: 3%;
+  }
+  .links-title p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3c4142;
+  }
+  .direct-link p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* links end */
+  /* login start */
+  .login-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-login {
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .forgot-pass {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+  .sign-up p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+  .forgot-pass p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+  .form-control-1 {
+    margin-top: 5%;
+    width: 84%;
+    height: 64.1px;
+    padding: 20px 379px 23.1px 30px;
+    border-radius: 2px;
+    border: solid 1px #bababa;
+    background-color: #fff;
+    font-size: 18px;
+    color: #7c8085;
+  }
+  .recaptcha-kullanm {
+    width: 306.8px;
+    height: 82px;
+    margin: 33px 4px 64px 120.2px;
+  }
+  .btn-success {
+    width: 84%;
+    height: 62px;
+    background-color: #4fb498;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* login end */
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .container {
+    max-width: 1820px;
+  }
+    /* categories start */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .logo p {
+      font-size: 28px;
+      letter-spacing: -0.88px;
+      font-weight: 500;
+      color: #009ee3;
+      margin-top: 4%;
+      margin-left: 40px;
+    }
+    .logo span {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: -0.88px;
+      color: #00386e;
+    }
+    .header-search {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .input-group {
+      border-radius: 2px;
+      border: solid 1px #c0c7ce;
+      background-color: #fff;
+      width: 65%;
+      height: 45%;
+    }
+    .user-account {
+      border-radius: 2px;
+      background-color: #4fb498;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      padding-top: 0.5rem;
+      width: 25%;
+    }
+    .account-name h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .account-name a {
+      font-weight: bold;
+    }
+    a {
+      color: #fff;
+    }
+    .account-logout {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .account-logout p {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #7c8085;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .icerik-breadcrumb {
+      background-color: #00386e;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1%;
+      padding-right: 1%;
+    }
+    .folder-way ul {
+      display: flex;
+      list-style-type: none;
+    }
+    .folder-way li {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      color: #fff;
+    }
+    .categories-title h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .teknik-dokumanlar {
+      background-color: #0f78bf;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-dokumanlar {
+      background-color: #ffb140;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .oryantasyon-dokumanlar {
+      background-color: #f13f3a;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-videolar {
+      background-color: #283b93;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurulum-videolar {
+      background-color: #90c845;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kisisel-gelisim-kitaplar {
+      background-color: #282763;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurumsal-dokumanlar {
+      background-color: #26abe2;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .faydali-linkler {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .categories-name {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    }
+    .categories-name p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-top: 5%;
+    }
+    .footer {
+      background-color: #00386e;
+      margin-top: 5%;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1%;
+    }
+    .venus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-bottom-left {
+      display: flex;
+      align-items: center;
+    }
+    .footer-bottom-left p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-left: 20px;
+    }
+    .footer-bottom-left img {
+      width: 118px;
+      height: 55px;
+    }
+    .footer-bottom-right {
+      display: flex;
+      align-items: flex-start;
+    }
+    .footer-bottom-right p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      color: #7c8085;
+      margin-right: 20px;
+    }
+    .footer-bottom-right img {
+      width: 33px;
+      height: 35px;
+    }
+    /* categories end */
+    /* document start */
+  
+    .document-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .general-categories a {
+      color: black;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      width: 68%;
+    }
+    .teknik-dokumanlar-icon {
+      background-color: #0f78bf;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-dokumanlar-icon {
+      background-color: #ffb140;
+      padding: 2%;
+      width: 10%;
+    }
+    .oryantasyon-dokumanlar-icon {
+      background-color: #f13f3a;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-videolar-icon {
+      background-color: #283b93;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurulum-videolar-icon {
+      background-color: #90c845;
+      padding: 2%;
+      width: 10%;
+    }
+    .kisisel-gelisim-icon {
+      background-color: #282763;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurumsal-dokumanlar-icon {
+      background-color: #26abe2;
+      padding: 2%;
+      width: 10%;
+    }
+    .faydali-linkler-icon {
+      background-color: #4fb498;
+      padding: 2%;
+      width: 10%;
+    }
+    .general-categories li {
+      font-size: 14px;
+      font-weight: 600;
+      color: #000;
+      margin-left: 20px;
+    }
+
+    .book-photo {
+      margin-top: 33%;
+      width: 100%;
+    }
+    .document-info {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .document-info-view {
+      display: flex;
+      align-items: baseline;
+    }
+    .document-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .document-info h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .document-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .document-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .document-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+      padding-bottom: 5%;
+    }
+    .teknik-dokumanlari-active {
+      background-color: #0f78bf;
+      color: #fff;
+    }
+    .teknik-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-dokumanlari-active{
+      background-color: #ffb140;
+    }
+    .egitim-dokumanlari-active li{
+      color: #fff;
+    }
+    .oryantasyon-dokumanlari-active {
+      background-color: #f13f3a;
+    }
+    .oryantasyon-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-videolari-active {
+      background-color: #283b93;
+    }
+    .egitim-videolari-active li{
+      color: #fff;
+    }
+    .kurulum-videolari-active {
+      background-color: #90c845;
+    }
+    .kurulum-videolari-active li{
+      color: #fff;
+    }
+    .gelisim-kitaplari-active {
+      background-color: #282763;
+    }
+    .gelisim-kitaplari-active li{
+      color: #fff;
+    }
+    .kurumsal-dokumanlar-active {
+      background-color: #26abe2;
+    }
+    .kurumsal-dokumanlar-active li{
+      color: #fff;
+    }
+    .faydali-linkler-active {
+      background-color: #4fb498;
+    }
+    .faydali-linkler-active li{
+      color: #fff;
+    }
+  
+      /* document end */
+    /* education start */
+    .videos-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .video-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .video-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .video-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+    }
+    .document-pdf {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
+    .document-pdf p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00a2d3;
+      margin-left: 10%;
+      padding-bottom: 5%;
+    }
+    .fa-regular {
+      font-size: 25px;
+      color: #00a2d3;
+    }
+    .pagination-container ul {
+      display: flex;
+      list-style-type: none;
+      margin-top: 5%;
+    }
+    .pagination-container li {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #3c4142;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination-prev , .pagination-next {
+      border: solid 2px #00a2d3;
+      border-radius: 20px;
+      width: 55px;
+      height: 55px;
+    }
+    .pagination-div {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .fa-angle-left , .fa-angle-right {
+      color: #00a2d3;
+    }
+  /* education end */
+  /* links start */
+  .links-heading {
+    display: flex;
+    background-color: #7c8085;
+    height: fit-content;
+  }
+  .links-heading h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-left: solid 1px #c0c7ce;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  .links-contents {
+    display: flex;
+    height: fit-content;
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .direct-link {
+    border-left: solid 1px #c0c7ce;
+  }
+  .links-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3c4142;
+    margin-top: 3%;
+  }
+  .links-title p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3c4142;
+  }
+  .direct-link p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* links end */
+  /* login start */
+  .login-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-login {
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .forgot-pass {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+  .sign-up p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+  .forgot-pass p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+  .form-control-1 {
+    margin-top: 5%;
+    width: 84%;
+    height: 64.1px;
+    padding: 20px 379px 23.1px 30px;
+    border-radius: 2px;
+    border: solid 1px #bababa;
+    background-color: #fff;
+    font-size: 18px;
+    color: #7c8085;
+  }
+  .recaptcha-kullanm {
+    width: 306.8px;
+    height: 82px;
+    margin: 33px 4px 64px 120.2px;
+  }
+  .btn-success {
+    width: 84%;
+    height: 62px;
+    background-color: #4fb498;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* login end */
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    max-width: 1820px;
+  }
+    /* categories start */
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .logo p {
+      font-size: 28px;
+      letter-spacing: -0.88px;
+      font-weight: 500;
+      color: #009ee3;
+      margin-top: 4%;
+      margin-left: 40px;
+    }
+    .logo span {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: -0.88px;
+      color: #00386e;
+    }
+    .header-search {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+    .input-group {
+      border-radius: 2px;
+      border: solid 1px #c0c7ce;
+      background-color: #fff;
+      width: 65%;
+      height: 45%;
+    }
+    .user-account {
+      border-radius: 2px;
+      background-color: #4fb498;
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .account-name h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .account-name a {
+      font-weight: bold;
+    }
+    a {
+      color: #fff;
+    }
+    .account-logout {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .account-logout p {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #7c8085;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .icerik-breadcrumb {
+      background-color: #00386e;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1%;
+      padding-right: 1%;
+    }
+    .folder-way ul {
+      display: flex;
+      list-style-type: none;
+    }
+    .folder-way li {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      color: #fff;
+    }
+    .categories-title h5 {
+      font-size: 15px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .teknik-dokumanlar {
+      background-color: #0f78bf;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-dokumanlar {
+      background-color: #ffb140;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .oryantasyon-dokumanlar {
+      background-color: #f13f3a;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .egitim-videolar {
+      background-color: #283b93;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurulum-videolar {
+      background-color: #90c845;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kisisel-gelisim-kitaplar {
+      background-color: #282763;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .kurumsal-dokumanlar {
+      background-color: #26abe2;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .faydali-linkler {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .categories-name {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    }
+    .categories-name p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-top: 5%;
+    }
+    .footer {
+      background-color: #00386e;
+      margin-top: 5%;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #fff;
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 1%;
+    }
+    .venus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-bottom-left {
+      display: flex;
+      align-items: center;
+    }
+    .footer-bottom-left p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7c8085;
+      margin-left: 20px;
+    }
+    .footer-bottom-left img {
+      width: 118px;
+      height: 55px;
+    }
+    .footer-bottom-right {
+      display: flex;
+      align-items: flex-start;
+    }
+    .footer-bottom-right p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      color: #7c8085;
+      margin-right: 20px;
+    }
+    .footer-bottom-right img {
+      width: 33px;
+      height: 35px;
+    }
+    /* categories end */
+    /* document start */
+  
+    .document-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .general-categories a {
+      color: black;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+    }
+    .teknik-dokumanlar-icon {
+      background-color: #0f78bf;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-dokumanlar-icon {
+      background-color: #ffb140;
+      padding: 2%;
+      width: 10%;
+    }
+    .oryantasyon-dokumanlar-icon {
+      background-color: #f13f3a;
+      padding: 2%;
+      width: 10%;
+    }
+    .egitim-videolar-icon {
+      background-color: #283b93;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurulum-videolar-icon {
+      background-color: #90c845;
+      padding: 2%;
+      width: 10%;
+    }
+    .kisisel-gelisim-icon {
+      background-color: #282763;
+      padding: 2%;
+      width: 10%;
+    }
+    .kurumsal-dokumanlar-icon {
+      background-color: #26abe2;
+      padding: 2%;
+      width: 10%;
+    }
+    .faydali-linkler-icon {
+      background-color: #4fb498;
+      padding: 2%;
+      width: 10%;
+    }
+    .general-categories li {
+      font-size: 14px;
+      font-weight: 600;
+      padding-right: 20px;
+      color: #000;
+      margin-left: 20px;
+    }
+    .book-photo {
+      margin-top: 33%;
+      width: 75%;
+    }
+    .document-info {
+      background-color: #4fb498;
+      color: white;
+      margin-top: 5%;
+      width: 90%;
+      padding: 2%;
+    }
+    .document-info-view {
+      display: flex;
+      align-items: baseline;
+    }
+    .document-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .document-info h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+    .document-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .document-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .document-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+      padding-bottom: 5%;
+    }
+    .teknik-dokumanlari-active {
+      background-color: #0f78bf;
+      color: #fff;
+    }
+    .teknik-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-dokumanlari-active{
+      background-color: #ffb140;
+    }
+    .egitim-dokumanlari-active li{
+      color: #fff;
+    }
+    .oryantasyon-dokumanlari-active {
+      background-color: #f13f3a;
+    }
+    .oryantasyon-dokumanlari-active li{
+      color: #fff;
+    }
+    .egitim-videolari-active {
+      background-color: #283b93;
+    }
+    .egitim-videolari-active li{
+      color: #fff;
+    }
+    .kurulum-videolari-active {
+      background-color: #90c845;
+    }
+    .kurulum-videolari-active li{
+      color: #fff;
+    }
+    .gelisim-kitaplari-active {
+      background-color: #282763;
+    }
+    .gelisim-kitaplari-active li{
+      color: #fff;
+    }
+    .kurumsal-dokumanlar-active {
+      background-color: #26abe2;
+    }
+    .kurumsal-dokumanlar-active li{
+      color: #fff;
+    }
+    .faydali-linkler-active {
+      background-color: #4fb498;
+    }
+    .faydali-linkler-active li{
+      color: #fff;
+    }
+  
+      /* document end */
+    /* education start */
+    .videos-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .video-name {
+      border-bottom: solid 1px #c0c7ce;
+      margin-top: 5%;
+    }
+    .video-name h3 {
+      color: #3c4142;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 5%;
+      width: 90%;
+    }
+    .video-name p {
+      font-size: 16px;
+      color: #3c4142;
+      width: 90%;
+    }
+    .document-pdf {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
+    .document-pdf p {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00a2d3;
+      margin-left: 10%;
+      padding-bottom: 5%;
+    }
+    .fa-regular {
+      font-size: 25px;
+      color: #00a2d3;
+    }
+    .pagination-container ul {
+      display: flex;
+      list-style-type: none;
+      margin-top: 5%;
+    }
+    .pagination-container li {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #3c4142;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination-prev , .pagination-next {
+      border: solid 2px #00a2d3;
+      border-radius: 20px;
+      width: 55px;
+      height: 55px;
+    }
+    .pagination-div {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .fa-angle-left , .fa-angle-right {
+      color: #00a2d3;
+    }
+  /* education end */
+  /* links start */
+  .links-heading {
+    display: flex;
+    background-color: #7c8085;
+    height: fit-content;
+    justify-content: space-between;
+  }
+  .links-heading h3 {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-left: solid 1px #c0c7ce;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  .links-contents {
+    display: flex;
+    height: fit-content;
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .direct-link {
+    border-left: solid 1px #c0c7ce;
+  }
+  .links-title h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3c4142;
+    margin-top: 3%;
+  }
+  .links-title p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3c4142;
+  }
+  .direct-link p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #00a2d3;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* links end */
+  /* login start */
+  .login-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .login-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header-login {
+    border-bottom: solid 1px #c0c7ce;
+  }
+  .forgot-pass {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sign-up {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2%;
+  }
+  .sign-up p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+  .forgot-pass p {
+    font-size: 14px;
+    color: #7c8085;
+    margin-left: 10px;
+  }
+.login-content {
+  margin-bottom: 10%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-content-left {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.login-content-right {
+  margin-top: 5%;
+}
+.login-title {
+  text-align: right;
+  margin-bottom: 10%;
+}
+.login-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #00386e;
+}
+.login-title h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #7c8085;
+}
+.login-content-right h4 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #00386e;
+}
+  .form-control-1 {
+    margin-top: 5%;
+    width: 84%;
+    height: 64.1px;
+    border-radius: 2px;
+    border: solid 1px #bababa;
+    background-color: #fff;
+    font-size: 18px;
+    color: #7c8085;
+  }
+  .recaptcha-kullanm {
+    width: 306.8px;
+    height: 82px;
+    margin: 33px 4px 64px 120.2px;
+  }
+  .btn-success {
+    width: 84%;
+    height: 62px;
+    background-color: #4fb498;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* login end */
+}

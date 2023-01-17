@@ -1,0 +1,3516 @@
+/*Created By Venus Agency*/
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  
+}
+:root {
+  --first-color: #75777a;
+  --second-color: #41ac47;
+  --third-color: #75777a;
+}
+body {
+  font-family: 'Montserrat';
+  font-size: 18;
+  color: #444e4c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-md-3, .col-md-6, .col-md-4, .col-md-8, .col-md-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+b {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.active {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+a:hover {
+  color:white;
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+@media only screen and (min-width: 1920px) { 
+
+  .Rectangle-Copy {
+    width: 204px;
+    padding: 57px 34px 55px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+
+  }
+
+  .Rectangle-Copy:hover {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    
+  }
+  .Rectangle-Copy img:last-child{display: none}
+  .Rectangle-Copy:hover img:first-child{display: none;}
+  .Rectangle-Copy:hover img:last-child{display: inline-block}
+  .Rectangle-Copy img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 37px 56px 36px;
+    object-fit: contain;
+  }
+
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+
+  .about-us {
+    margin-top: 5%;
+  }
+  .architectural-section {
+    background-color: #edf1f0;
+  }
+
+  .projects-name {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 600;
+  }
+
+  .projects-name-alt {
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 400;
+  }
+
+  .projects-place {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    color: #717171;
+    margin-left: 2%;
+  }
+  
+  .projects {
+    margin-top: 5%;
+  }
+
+  .project-info img{
+    width: 22px;
+    height: auto;
+  }
+
+  .team {
+    margin-top: 5%;
+    background-color: #333332;
+  }
+
+  .team-co-founders {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #dadada;
+  }
+
+  .team-co-founders-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #dadada;
+  }
+
+  .people-img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: luminosity;
+  }
+
+  .awards {
+    margin-top: 5%;
+  }
+
+  .contact-adress {
+    margin-top: 5%;
+  }
+
+  .TR-EN-AR {
+    font-size: 16px;
+    color: #717171;
+  }
+
+  img {
+    width: 640.3px;
+    height: 555px;
+    margin: 0 0 0 0px;
+  }
+
+  .Mask {
+    width: 640.3px;
+    height: 555px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+  }
+
+  .Rectangle-Copy-5 {
+    margin-top: 15%;
+    background-color: #717171;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    padding: 1.6%;
+  }
+  
+
+  img._135812 {
+    width: 304.2px;
+    height: 398.2px;
+    margin: 0px 240.3px 20px 6.5px;
+    object-fit: contain;
+  }
+  
+  img._153732 {
+    width: 304.1px;
+    height: 255.7px;
+    margin: 20px 240.2px 69.7px 6.7px;
+    object-fit: contain;
+  }
+
+
+  .Magna-Insaat-is-spec-Copy {
+    width: 717px;
+    height: 88px;
+    margin: 3px 1px 17px 243px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #717171;
+  }
+ 
+
+
+
+
+
+.PEOPLE {
+  width: 730px;
+  height: 242px;
+  opacity: 0.32;
+  -webkit-text-stroke: 2px #fff;
+  font-family: "Montserrat";
+  font-size: 169px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333332;
+}
+
+img.news-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+
+
+.container {
+  object-fit: cover;
+}
+.Mask-2 {
+  padding: 0 154.9px 0 163.9px;
+  background-color: #000;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+
+.view-detail {
+  color: white;
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-right: 15%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+  margin-right: 5%;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}
+
+
+.project-photo {
+  width: 95%;
+}
+.project-header-title {
+  margin-left: 2%;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.about-us-text {
+  margin-top: 5%;
+}
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1919px) { 
+  .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+  
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+  .about-us {
+    margin-top: 5%;
+  }
+  .architectural-section {
+    background-color: #edf1f0;
+  }
+
+  .projects-name {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 600;
+  }
+
+  .projects-name-alt {
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 400;
+  }
+
+  .projects-place {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    color: #717171;
+    margin-left: 2%;
+  }
+  
+  .projects {
+    margin-top: 5%;
+  }
+
+  .project-info img{
+    width: 22px;
+    height: auto;
+  }
+
+  .team {
+    margin-top: 5%;
+    background-color: #333332;
+  }
+
+  .team-co-founders {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #dadada;
+  }
+
+  .team-co-founders-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #dadada;
+  }
+  .people-img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: luminosity;
+  }
+  .awards {
+    margin-top: 5%;
+  }
+
+  .contact-adress {
+    margin-top: 5%;
+  }
+
+  .TR-EN-AR {
+    font-size: 16px;
+    color: #717171;
+  }
+
+  img {
+    width: 640.3px;
+    height: 555px;
+    margin: 0 0 0 0px;
+  }
+
+  .Mask {
+    width: 640.3px;
+    height: 555px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+  }
+
+
+  .VIEW-DETAILS-Copy-3 {
+    width: 138px;
+    height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .Rectangle-Copy-5 {
+    margin-top: 15%;
+    background-color: #717171;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    padding: 2.5%;
+  }
+
+  .Rectangle-Copy {
+    width: 204px;
+    padding: 57px 34px 55px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+
+  }
+
+  .Rectangle-Copy:hover {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    
+  }
+  .Rectangle-Copy img:last-child{display: none}
+  .Rectangle-Copy:hover img:first-child{display: none;}
+  .Rectangle-Copy:hover img:last-child{display: inline-block}
+  .Rectangle-Copy img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 37px 56px 36px;
+    object-fit: contain;
+  }
+
+.WhatsApp-Image-2022-06-09-at-164007 {
+  width: 961px;
+  height: 949px;
+  object-fit: contain;
+
+}
+
+.VIEW-DETAILS-Copy-3 {
+  width: auto;
+  height: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: justify;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+
+img.AdobeStock_111087123 {
+  width: 960px;
+  height: 682px;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+.PEOPLE {
+  width: 730px;
+  height: 242px;
+
+  opacity: 0.32;
+  -webkit-text-stroke: 2px #fff;
+  font-family: "Montserrat";
+  font-size: 169px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333332;
+}
+
+img.news-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+
+
+.container {
+  object-fit: cover;
+}
+.Mask-2 {
+
+  padding: 0 154.9px 0 163.9px;
+  background-color: #000;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+
+.view-detail {
+  color: white;
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-right: 15%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+  margin-right: 5%;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}
+
+.project-photo {
+  width: 95%;
+}
+.project-header-title {
+  margin-left: 2%;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.about-us-text {
+  margin-top: 5%;
+}
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) { 
+  .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+  
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+  .about-us {
+    margin-top: 5%;
+  }
+  .architectural-section {
+    background-color: #edf1f0;
+  }
+
+  .projects-name {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 600;
+  }
+
+  .projects-name-alt {
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 400;
+  }
+
+  .projects-place {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    color: #717171;
+    margin-left: 2%;
+  }
+  
+  .projects {
+    margin-top: 5%;
+  }
+
+  .project-info img{
+    width: 22px;
+    height: auto;
+  }
+
+  .team {
+    margin-top: 5%;
+    background-color: #333332;
+  }
+
+  .team-co-founders {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #dadada;
+  }
+
+  .team-co-founders-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #dadada;
+  }
+  .people-img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: luminosity;
+  }
+  .awards {
+    margin-top: 5%;
+  }
+
+  .contact-adress {
+    margin-top: 5%;
+  }
+
+  .TR-EN-AR {
+    font-size: 16px;
+    color: #717171;
+  }
+
+  img {
+    width: 640.3px;
+    height: 555px;
+    margin: 0 0 0 0px;
+  }
+
+  .Mask {
+    width: 640.3px;
+    height: 555px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+  }
+
+
+  .VIEW-DETAILS-Copy-3 {
+    width: 138px;
+    height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .Rectangle-Copy-5 {
+    margin-top: 15%;
+    background-color: #717171;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    padding: 2.5%;
+  }
+  
+
+  img._135812 {
+    width: 304.2px;
+    height: 398.2px;
+    margin: 0px 240.3px 20px 6.5px;
+    object-fit: contain;
+  }
+  
+  img._153732 {
+    width: 304.1px;
+    height: 255.7px;
+    margin: 20px 240.2px 69.7px 6.7px;
+    object-fit: contain;
+  }
+
+
+  .Magna-Insaat-is-spec-Copy {
+    width: 717px;
+    height: 88px;
+    margin: 3px 1px 17px 243px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #717171;
+  }
+  
+  .Rectangle-Copy {
+    width: 204px;
+    padding: 57px 34px 55px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+
+  }
+
+  .Rectangle-Copy:hover {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    
+  }
+  .Rectangle-Copy img:last-child{display: none}
+  .Rectangle-Copy:hover img:first-child{display: none;}
+  .Rectangle-Copy:hover img:last-child{display: inline-block}
+  .Rectangle-Copy img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 37px 56px 36px;
+    object-fit: contain;
+  }
+
+.WhatsApp-Image-2022-06-09-at-164007 {
+  width: 961px;
+  height: 949px;
+  object-fit: contain;
+
+}
+
+.VIEW-DETAILS-Copy-3 {
+  width: auto;
+  height: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: justify;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+
+img.AdobeStock_111087123 {
+  width: 960px;
+  height: 682px;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+.PEOPLE {
+  width: 730px;
+  height: 242px;
+
+  opacity: 0.32;
+  -webkit-text-stroke: 2px #fff;
+  font-family: "Montserrat";
+  font-size: 120px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333332;
+}
+
+img.news-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+.container {
+  object-fit: cover;
+}
+.Mask-2 {
+  padding: 0 154.9px 0 163.9px;
+  background-color: #000;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+
+.view-detail {
+  color: white;
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-right: 15%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+  margin-right: 5%;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}
+
+.project-photo {
+  width: 95%;
+}
+.project-header-title {
+  margin-left: 2%;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.about-us-text {
+  margin-top: 5%;
+}
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1440px) { 
+  .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    font-size: 18px;
+  }
+  
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+  
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+  .about-us {
+    margin-top: 5%;
+  }
+  .architectural-section {
+    background-color: #edf1f0;
+  }
+  .projects-name {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 600;
+  }
+
+  .projects-name-alt {
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 400;
+  }
+
+  .projects-place {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    color: #717171;
+    margin-left: 2%;
+  }
+  
+  .projects {
+    margin-top: 5%;
+  }
+
+  .project-info img{
+    width: 22px;
+    height: auto;
+  }
+  .team {
+    margin-top: 5%;
+    background-color: #333332;
+  }
+
+  .team-co-founders {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #dadada;
+  }
+
+  .team-co-founders-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #dadada;
+  }
+  .people-img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: luminosity;
+  }
+  .awards {
+    margin-top: 5%;
+  }
+
+  .contact-adress {
+    margin-top: 5%;
+  }
+
+  .TR-EN-AR {
+    font-size: 16px;
+    color: #717171;
+  }
+
+  img {
+    width: 640.3px;
+    height: 555px;
+    margin: 0 0 0 0px;
+  }
+
+  .Mask {
+    width: 640.3px;
+    height: 555px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+  }
+
+
+  .VIEW-DETAILS-Copy-3 {
+    width: 138px;
+    height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .Rectangle-Copy-5 {
+    margin-top: 15%;
+    background-color: #717171;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    padding: 2.5%;
+  }
+  
+
+  img._135812 {
+    width: 304.2px;
+    height: 398.2px;
+    margin: 0px 240.3px 20px 6.5px;
+    object-fit: contain;
+  }
+  
+  img._153732 {
+    width: 304.1px;
+    height: 255.7px;
+    margin: 20px 240.2px 69.7px 6.7px;
+    object-fit: contain;
+  }
+
+
+  .Magna-Insaat-is-spec-Copy {
+    width: 717px;
+    height: 88px;
+    margin: 3px 1px 17px 243px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #717171;
+  }
+  
+  .Rectangle-Copy {
+    width: 204px;
+    padding: 57px 34px 55px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+
+  }
+
+  .Rectangle-Copy:hover {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    
+  }
+  .Rectangle-Copy img:last-child{display: none}
+  .Rectangle-Copy:hover img:first-child{display: none;}
+  .Rectangle-Copy:hover img:last-child{display: inline-block}
+  .Rectangle-Copy img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 37px 56px 36px;
+    object-fit: contain;
+  }
+
+
+.PEOPLE {
+  width: 730px;
+  height: 242px;
+
+  opacity: 0.32;
+  -webkit-text-stroke: 2px #fff;
+  font-family: "Montserrat";
+  font-size: 169px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333332;
+}
+
+img.news-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+.container {
+  object-fit: cover;
+}
+.Mask-2 {
+  
+  padding: 0 154.9px 0 163.9px;
+  background-color: #000;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+
+.view-detail {
+  color: white;
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-right: 15%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}
+
+.project-photo {
+  width: 95%;
+}
+.project-header-title {
+  margin-left: 2%;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.about-us-text {
+  margin-top: 5%;
+}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) { 
+    .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    font-size: 14px;
+  }
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+  .about-us {
+    margin-top: 5%;
+  }
+  .architectural-section {
+    background-color: #edf1f0;
+  }
+
+  .projects-name {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 600;
+  }
+
+  .projects-name-alt {
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 400;
+  }
+
+  .projects-place {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    color: #717171;
+    margin-left: 2%;
+  }
+  
+  .projects {
+    margin-top: 5%;
+  }
+
+  .project-info img{
+    width: 22px;
+    height: auto;
+  }
+  .team {
+    margin-top: 5%;
+    background-color: #333332;
+  }
+
+  .team-co-founders {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #dadada;
+  }
+
+  .team-co-founders-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #dadada;
+  }
+  .people-img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: luminosity;
+  }
+  .awards {
+    margin-top: 5%;
+  }
+
+  .contact-adress {
+    margin-top: 5%;
+  }
+
+  .TR-EN-AR {
+    font-size: 16px;
+    color: #717171;
+  }
+
+  img {
+    width: 640.3px;
+    height: 555px;
+    margin: 0 0 0 0px;
+  }
+
+  .Mask {
+    width: 640.3px;
+    height: 555px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+  }
+
+
+  .VIEW-DETAILS-Copy-3 {
+    width: 138px;
+    height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .Rectangle-Copy-5 {
+    margin-top: 15%;
+    background-color: #717171;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    padding: 2.5%;
+  }
+  
+
+  img._135812 {
+    width: 304.2px;
+    height: 398.2px;
+    margin: 0px 240.3px 20px 6.5px;
+    object-fit: contain;
+  }
+  
+  img._153732 {
+    width: 304.1px;
+    height: 255.7px;
+    margin: 20px 240.2px 69.7px 6.7px;
+    object-fit: contain;
+  }
+
+
+  .Magna-Insaat-is-spec-Copy {
+    width: 717px;
+    height: 88px;
+    margin: 3px 1px 17px 243px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #717171;
+  }
+  
+  .Rectangle-Copy {
+    width: 204px;
+    padding: 57px 34px 55px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+
+  }
+
+  .Rectangle-Copy:hover {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    
+  }
+  .Rectangle-Copy img:last-child{display: none}
+  .Rectangle-Copy:hover img:first-child{display: none;}
+  .Rectangle-Copy:hover img:last-child{display: inline-block}
+  .Rectangle-Copy img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 37px 56px 36px;
+    object-fit: contain;
+  }
+
+.PEOPLE {
+  width: 730px;
+  height: 242px;
+
+  opacity: 0.32;
+  -webkit-text-stroke: 2px #fff;
+  font-family: "Montserrat";
+  font-size: 85px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333332;
+}
+
+img.news-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+.container {
+  object-fit: cover;
+}
+.Mask-2 {
+  padding: 0 154.9px 0 163.9px;
+  background-color: #000;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+
+.view-detail {
+  color: white;
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-right: 15%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}
+
+
+.project-photo {
+  width: 95%;
+}
+.project-header-title {
+  margin-left: 2%;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.about-us-text {
+  margin-top: 5%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+  .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+  
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    font-size: 13px;
+  }
+  
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+  
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+  .about-us {
+    margin-top: 5%;
+  }
+  .architectural-section {
+    background-color: #edf1f0;
+  }
+
+  .projects-name {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 600;
+  }
+
+  .projects-name-alt {
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 400;
+  }
+
+  .projects-place {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    color: #717171;
+    margin-left: 2%;
+  }
+  
+  .projects {
+    margin-top: 5%;
+  }
+
+  .project-info img{
+    width: 22px;
+    height: auto;
+  }
+
+  .team {
+    margin-top: 5%;
+    background-color: #333332;
+  }
+
+  .team-co-founders {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #dadada;
+  }
+
+  .team-co-founders-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #dadada;
+  }
+  .people-img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: luminosity;
+  }
+  .awards {
+    margin-top: 5%;
+  }
+
+  .contact-adress {
+    margin-top: 5%;
+  }
+
+  .TR-EN-AR {
+    visibility: hidden;
+  }
+
+  img {
+    width: 640.3px;
+    height: 555px;
+    margin: 0 0 0 0px;
+  }
+
+  .Mask {
+    width: 640.3px;
+    height: 555px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+  }
+
+
+  .VIEW-DETAILS-Copy-3 {
+    width: 138px;
+    height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .Rectangle-Copy-5 {
+    margin-top: 15%;
+    background-color: #717171;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    padding: 2.5%;
+  }
+  
+
+  img._135812 {
+    width: 304.2px;
+    height: 398.2px;
+    margin: 0px 240.3px 20px 6.5px;
+    object-fit: contain;
+  }
+  
+  img._153732 {
+    width: 304.1px;
+    height: 255.7px;
+    margin: 20px 240.2px 69.7px 6.7px;
+    object-fit: contain;
+  }
+
+
+  .Magna-Insaat-is-spec-Copy {
+    width: 717px;
+    height: 88px;
+    margin: 3px 1px 17px 243px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #717171;
+  }
+  
+  .Rectangle-Copy {
+    width: 204px;
+    padding: 57px 34px 55px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+
+  }
+
+  .Rectangle-Copy:hover {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    
+  }
+  .Rectangle-Copy img:last-child{display: none}
+  .Rectangle-Copy:hover img:first-child{display: none;}
+  .Rectangle-Copy:hover img:last-child{display: inline-block}
+  .Rectangle-Copy img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 37px 56px 36px;
+    object-fit: contain;
+  }
+
+.PEOPLE {
+  width: 730px;
+  height: 242px;
+
+  opacity: 0.32;
+  -webkit-text-stroke: 2px #fff;
+  font-family: "Montserrat";
+  font-size: 69px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333332;
+}
+
+img.news-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+.container {
+  object-fit: cover;
+}
+.Mask-2 {
+  padding: 0 154.9px 0 163.9px;
+  background-color: #000;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+
+.view-detail {
+  color: white;
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-right: 15%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}
+
+
+.project-photo {
+  width: 95%;
+}
+.project-header-title {
+  margin-left: 2%;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.about-us-text {
+  margin-top: 5%;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+  
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+  
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+  .TR-EN-AR {
+    visibility: hidden;
+  }
+
+.col-md-4 {
+  padding: 2%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Rectangle-Copy-5 {
+  margin-top: 15%;
+  background-color: #717171;
+  width: 200px;
+  text-align: center;
+  height: 60px;
+  justify-content: center;
+  padding: 2.5%;
+}
+    
+img._135812 {
+  width: 304.2px;
+  height: 398.2px;
+  margin: 0px 240.3px 20px 6.5px;
+  object-fit: contain;
+}
+      
+img._153732 {
+  width: 304.1px;
+  height: 255.7px;
+  margin: 20px 240.2px 69.7px 6.7px;
+  object-fit: contain;
+}
+    
+.Magna-Insaat-is-spec-Copy {
+  width: 717px;
+  height: 88px;
+  margin: 3px 1px 17px 243px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #717171;
+}
+      
+.Rectangle-Copy {
+  width: 204px;
+  padding: 57px 34px 55px 35px;
+  border-radius: 2px;
+  background-color: #fff;
+
+}
+
+.Rectangle-Copy:hover {
+  -webkit-text-fill-color: black;
+  font-weight: bold;
+  
+}
+.Rectangle-Copy img:last-child{display: none}
+.Rectangle-Copy:hover img:first-child{display: none;}
+.Rectangle-Copy:hover img:last-child{display: inline-block}
+.Rectangle-Copy img {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  margin: 0 37px 56px 36px;
+  object-fit: contain;
+}
+    
+    .PEOPLE {
+
+      opacity: 0.32;
+      -webkit-text-stroke: 2px #fff;
+      font-family: "Montserrat";
+      font-size: 100px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #333332;
+    }
+    
+    img.news-photo {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      mix-blend-mode: luminosity;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .centered {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.33;
+      letter-spacing: 0.9;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .about-us {
+      margin-top: 5%;
+    }
+    .architectural-section {
+      background-color: #edf1f0;
+    }
+    .projects-name {
+      margin-top: 10%;
+      font-family: Montserrat;
+      font-size: 60;
+      color: #b4a071;
+      font-weight: 600;
+    }
+  
+    .projects-name-alt {
+      font-family: Montserrat;
+      font-size: 60;
+      color: #b4a071;
+      font-weight: 400;
+    }
+
+    .projects-place {
+      font-family: Montserrat;
+      font-size: 20px;
+      line-height: 2;
+      color: #717171;
+      margin-left: 2%;
+    }
+    
+    .projects {
+      margin-top: 5%;
+    }
+
+    .project-info img{
+      width: 22px;
+      height: auto;
+    }
+    .project-photo {
+      width: 95%;
+    }
+    .Mask-2 {
+      padding: 0 154.9px 0 163.9px;
+      background-color: #000;
+    }
+    .more {
+      font-family: Montserrat;
+      font-size: 12px; 
+      font-weight: 600; 
+      letter-spacing: 1px; 
+      text-align: center; 
+      color: #fff;
+      
+    }
+    .team {
+      margin-top: 5%;
+      background-color: #333332;
+    }
+  
+    .team-co-founders {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: italic;
+      color: #dadada;
+    }
+  
+    .team-co-founders-text {
+      font-family: Montserrat;
+      font-size: 18px;
+      color: #dadada;
+    }
+    .people-img {
+      width: 100%;
+      height: auto;
+      mix-blend-mode: luminosity;
+    }
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+  margin-right: 5%;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}ign-content: center;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+    
+
+@media only screen and (max-width: 480px) { 
+  .architectural-title {
+    font-family: Montserrat; 
+    font-size: 35; 
+    font-weight: 500; 
+    color: #b4a071; 
+    margin-top: 8%;
+  }
+  .architectural-section {
+    margin-top: 5%;
+  }
+ 
+  .about-banner {
+    background: black;
+  }
+  .about-banner-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    mix-blend-mode: luminosity; 
+    opacity: 0.54; 
+  }
+  .awards-title {
+    font-family: Montserrat; 
+    font-size: 22; 
+    font-weight: bold;
+  }
+
+  .awards-time {
+    font-family: Montserrat; 
+    font-size: 18; 
+    color: #b4a071;
+  }
+  
+  .main-projects-photos img {
+    width: 959px;
+    height: 729px;
+  }
+  .contact-us-text1 {
+    font-family: Montserrat;
+    font-size: 31;
+    color: #8e9593;
+  }
+  .contact-us-text2 {
+    font-family: Montserrat; 
+    font-size: 23; 
+    font-weight: 600; 
+    color: #929997;
+  }
+  .contact-us-text2-title {
+    font-family: Montserrat; 
+    font-size: 17; 
+    font-weight: bold; 
+    color: #b4a071;
+  }
+  .contact-us-text2-text {
+    font-family: Montserrat; 
+    font-size: 17; 
+    color: #2b3331;
+  }
+  .contact-form-h1 {
+    font-family: Montserrat; 
+    font-size: 48px; 
+    font-weight: 500; 
+    color: #2b3331;
+  }
+  .contact-form {
+    height: 80px;
+  }
+  .contact-message {
+    height: 240px;
+  }
+  .projects-text {
+    font-family: Montserrat; 
+    font-size: 22;  
+    color: #444e4c; 
+    margin-right: 10%;
+  }
+  .architectural-photo img {
+    width: 100%;
+    height: auto;
+  }
+  .main-title-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #717171;
+    margin-top: 4%;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto; 
+    opacity: 0.92; 
+    object-fit: contain;
+  }
+  
+  .main-title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  .main-title-2 {
+    font-size: 42; 
+    font-weight: bold; 
+    width: 100%;
+  }
+
+  .main-title-3 {
+    font-family: Marck Script; 
+    font-size: 60; 
+    color:#b4a071; 
+    width: 100%;
+  }
+
+  .banner {
+    background-color: black;
+  }
+  
+  .view-details-text {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    justify-content: center;
+  }
+  .about-magna-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  img.magna-logo {
+    width: 227.3px;
+    height: 87.7px;
+    object-fit: contain;
+  }
+  .more {
+    font-family: Montserrat;
+    font-size: 16px; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    color: #fff;
+  }
+  .Rectangle-Copy-8 {
+    width: 230px;
+    padding: 24px 71px 23px 79px;
+    background-color: #b4a071;
+    margin-top: 5%;
+  }
+  .about-us {
+    margin-top: 5%;
+  }
+  .architectural-section {
+    background-color: #edf1f0;
+  }
+
+  .projects-name {
+    margin-top: 10%;
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 600;
+  }
+
+  .projects-name-alt {
+    font-family: Montserrat;
+    font-size: 60;
+    color: #b4a071;
+    font-weight: 400;
+  }
+
+  .projects-place {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    color: #717171;
+    margin-left: 2%;
+  }
+  
+  .projects {
+    margin-top: 5%;
+  }
+
+  .project-info img{
+    width: 22px;
+    height: auto;
+  }
+
+  .team {
+    margin-top: 5%;
+    background-color: #333332;
+  }
+
+  .team-co-founders {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #dadada;
+  }
+
+  .team-co-founders-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #dadada;
+  }
+  .people-img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: luminosity;
+    
+  }
+  .awards {
+    margin-top: 5%;
+  }
+
+  .contact-adress {
+    margin-top: 5%;
+  }
+
+  .TR-EN-AR {
+    visibility: hidden;
+  }
+
+  img {
+    width: 640.3px;
+    height: 555px;
+    margin: 0 0 0 0px;
+  }
+
+  .Mask {
+    width: 640.3px;
+    height: 555px;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+  }
+
+
+  .VIEW-DETAILS-Copy-3 {
+    width: 138px;
+    height: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .Rectangle-Copy-5 {
+    margin-top: 15%;
+    background-color: #717171;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    padding: 2.5%;
+  }
+  
+
+  img._135812 {
+    width: 304.2px;
+    height: 398.2px;
+    margin: 0px 240.3px 20px 6.5px;
+    object-fit: contain;
+  }
+  
+  img._153732 {
+    width: 304.1px;
+    height: 255.7px;
+    margin: 20px 240.2px 69.7px 6.7px;
+    object-fit: contain;
+  }
+
+
+  .Magna-Insaat-is-spec-Copy {
+    width: 717px;
+    height: 88px;
+    margin: 3px 1px 17px 243px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #717171;
+  }
+  
+  .Rectangle-Copy {
+    width: 204px;
+    padding: 57px 34px 55px 35px;
+    border-radius: 2px;
+    background-color: #fff;
+
+  }
+
+  .Rectangle-Copy:hover {
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+    
+  }
+  .Rectangle-Copy img:last-child{display: none}
+  .Rectangle-Copy:hover img:first-child{display: none;}
+  .Rectangle-Copy:hover img:last-child{display: inline-block}
+  .Rectangle-Copy img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin: 0 37px 56px 36px;
+    object-fit: contain;
+  }
+
+.PEOPLE {
+  width: 430px;
+  opacity: 0.32;
+  -webkit-text-stroke: 2px #fff;
+  font-family: "Montserrat";
+  font-size: 80px;
+  font-weight: bold;
+  color: #333332;
+}
+
+img.news-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
+
+.container {
+  object-fit: cover;
+}
+.Mask-2 {
+  padding: 0 154.9px 0 163.9px;
+  background-color: #000;
+}
+
+.logo-icon {
+  width: 13.5%;
+  height: auto;
+}
+
+.view-detail {
+  color: white;
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-right: 15%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.9;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.54;
+}
+
+
+
+.footer {
+  margin-top: 5%;
+  background-color: #333332;
+}
+.instagram-footer {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  color: #bbb;
+}
+.instagram-footer-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: #bbb;
+  align-content: center;
+}
+
+.project-photo {
+  width: 95%;
+}
+.project-header-title {
+  margin-left: 2%;
+}
+.Line {
+  width: 1920px;
+  height: 1px;
+  margin: 57px 0 64px;
+  border: solid 1px #b4a071;
+}
+
+.about-us-text {
+  margin-top: 5%;
+}
+
+
+}

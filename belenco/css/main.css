@@ -1,0 +1,3072 @@
+/*Created By Venus Agency*/
+@font-face {
+  font-family: KohinoorBangla;
+  src: url("/fonts/KohinoorBangla-Semibold.ttf") format('embedded-opentype'), /* Internet Explorer */
+  url("/fonts/KohinoorBangla-Semibold.ttf") format('woff2'),             /* Super Modern Browsers */
+  url("/fonts/KohinoorBangla-Semibold.ttf") format('woff'),              /* Pretty Modern Browsers */
+  url("/fonts/KohinoorBangla-Semibold.ttf") format('truetype');          /* Safari, Android, iOS */
+  font-weight: 500;
+}
+@font-face {
+  font-family: KohinoorBangla;
+  src: url("/fonts/KohinoorBangla-Bold.ttf") format('embedded-opentype'), /* Internet Explorer */
+  url("/fonts/KohinoorBangla-Bold.ttf") format('woff2'),             /* Super Modern Browsers */
+  url("/fonts/KohinoorBangla-Bold.ttf") format('woff'),              /* Pretty Modern Browsers */
+  url("/fonts/KohinoorBangla-Bold.ttf") format('truetype');          /* Safari, Android, iOS */
+  font-weight: bold;
+}
+@font-face {
+  font-family: KohinoorBangla;
+  src: url("/fonts/KohinoorBangla-Light.ttf") format('embedded-opentype'), /* Internet Explorer */
+  url("/fonts/KohinoorBangla-Light.ttf") format('woff2'),             /* Super Modern Browsers */
+  url("/fonts/KohinoorBangla-Light.ttf") format('woff'),              /* Pretty Modern Browsers */
+  url("/fonts/KohinoorBangla-Light.ttf") format('truetype');          /* Safari, Android, iOS */
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --first-color: #52274e;
+  --second-color: #ebeef0;
+  --third-color: #58677c;
+}
+body {
+  font-family: KohinoorBangla;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.col-md-3, .col-md-6, .col-md-4, .col-md-8, .col-md-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: KohinoorBangla;
+}
+p {
+  font-family: KohinoorBangla;
+}
+b {
+  font-family: KohinoorBangla;
+  font-weight: 500;
+}
+.nav-item:hover {
+  background-color: #52274e;
+  color: white;
+}
+
+a {
+  text-decoration-line: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration-line: none;
+  color: white;
+}
+/* -------------------------- */
+
+
+@media only screen and (min-width: 1920px) {
+  @keyframes slide-in-anim {
+    20% {
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(-30%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+  .belenco-logo {
+    width: 180px;
+  }
+  
+  .navbar {
+    margin-top: -0.5%;
+  }
+  
+  .banner {
+    margin-top: -0.5%;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  
+  }
+  
+  .Line {
+    width: 1px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+    border: solid 1px #58677c;
+  }
+  
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 50px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 72px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+    transform: translateX(-200%);
+    animation: slide-in-anim 1.5s ease-out forwards;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+    margin-top: 20%;
+    transform: translateX(-200%);
+    animation: slide-in-anim 1.5s ease-out forwards;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+  
+  .belenco-unique {
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+  
+  /* footer */
+  
+  .footer-banner {
+    margin-top: 5%;
+  }
+  
+  .footer1-4 {
+    background-color: #ebeef0;
+    
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+    margin-top: 12%;
+    margin-left: -15%;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+  
+  }
+  
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+    margin-top: -5%;
+    margin-left: 5%;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    margin-left: -12%;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 2%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+  
+   .corporate-owl {
+     margin-left: -7%;
+     background-color: white;
+   }
+  
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+  
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 100%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1919px) {
+  .belenco-logo {
+    width: 180px;
+  }
+
+  .nav-item {
+    font-size: 16px;
+    padding-bottom: 4%;
+  }
+  
+  .Line {
+    width: 1px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+    border: solid 1px #58677c;
+  }
+  
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 50px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 72px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+    margin-top: 20%;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+  
+  .belenco-unique {
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+  
+  /* footer */
+  
+  .footer-banner {
+    margin-top: 5%;
+  }
+  
+  .footer1-4 {
+    background-color: #ebeef0;
+    
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+    margin-top: 12%;
+    margin-left: -15%;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+  
+  }
+  
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+    margin-top: -5%;
+    margin-left: 5%;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    margin-left: -12%;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 2%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+  
+   .corporate-owl {
+     margin-left: -7%;
+     background-color: white;
+   }
+  
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+  
+   .google-map {
+     visibility: hidden;
+   }
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 100%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  .belenco-logo {
+    width: 180px;
+  }
+  
+  .navbar {
+    margin-top: -0.5%;
+  }
+  
+  .banner {
+    margin-top: -0.5%;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  
+  }
+  
+  .Line {
+    width: 1px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+    border: solid 1px #58677c;
+  }
+  
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 40px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 72px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+    margin-top: 20%;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+  
+  .belenco-unique {
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+  
+  /* footer */
+  
+  .footer-banner {
+    margin-top: 5%;
+  }
+  
+  .footer1-4 {
+    background-color: #ebeef0;
+    
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+    margin-top: 12%;
+    margin-left: -15%;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+  
+  }
+  
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+    margin-top: -5%;
+    margin-left: 5%;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    margin-left: -12%;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 2%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+  
+   .corporate-owl {
+     margin-left: -7%;
+     background-color: white;
+   }
+  
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+   .google-map {
+    visibility: hidden;
+  }
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 80%;
+    margin-left: 20%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+  .belenco-logo {
+    width: 180px;
+  }
+  
+  .navbar {
+    margin-top: -0.5%;
+  }
+  
+  .banner {
+    margin-top: -0.5%;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  
+  }
+  
+  .Line {
+    width: 1px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+    border: solid 1px #58677c;
+  }
+  
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 72px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+    margin-top: 20%;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+  
+  .belenco-unique {
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+  
+  /* footer */
+  
+  .footer-banner {
+    margin-top: 5%;
+  }
+  
+  .footer1-4 {
+    background-color: #ebeef0;
+    
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+    margin-top: 12%;
+    margin-left: -15%;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+  
+  }
+  
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+    margin-top: -5%;
+    margin-left: 5%;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    margin-left: -12%;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 2%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+  
+   .corporate-owl {
+     margin-left: -7%;
+     background-color: white;
+   }
+  
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+   .google-map {
+    visibility: hidden;
+  }
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 70%;
+    margin-left: 30%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .belenco-logo {
+    width: 160px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 6%;
+  }
+  
+  .Line {
+    width: 1px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+    border: solid 1px #58677c;
+  }
+  
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 72px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+  
+  .belenco-unique {
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+  
+  /* footer */
+  
+  .footer-banner {
+    margin-top: 5%;
+  }
+  
+  .footer1-4 {
+    background-color: #ebeef0;
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+    margin-top: 12%;
+    margin-left: -15%;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+  }
+  
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+    margin-top: -5%;
+    margin-left: 5%;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    margin-left: -22%;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 2%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+  
+   .corporate-owl {
+     margin-left: -7%;
+     background-color: white;
+   }
+  
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+   .google-map {
+    visibility: hidden;
+  }
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 8%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
+@media only screen and (min-width: 741px) and (max-width: 1024px) {
+  .belenco-logo {
+    width: 180px;
+  }
+
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 155px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 25px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 15%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 36px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+    margin-top: 20%;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+  
+  .belenco-unique {
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+  
+  /* footer */
+  
+  .footer-banner {
+    margin-top: 5%;
+  }
+  
+  .footer1-4 {
+    background-color: #ebeef0;
+    
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+    margin-top: 12%;
+    margin-left: -15%;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+    margin-top: -40%;
+  }
+  .g-recaptcha {
+    visibility: hidden;  
+  }
+
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    margin-left: -24%;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 2%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 12px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+  
+   .corporate-owl {
+     margin-left: -7%;
+     background-color: white;
+   }
+  
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+   .google-map {
+    visibility: hidden;
+  }
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 100%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 740px) {
+  .belenco-logo {
+    width: 180px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+  }
+  
+  .Line {
+    width: 1px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+    border: solid 1px #58677c;
+  }
+  
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 25px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 36px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 66px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+    margin-top: 20%;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+
+  
+  /* footer */
+  
+
+  .footer1-4 {
+    background-color: #ebeef0;
+    
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+  }
+  
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-top: 5%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 2%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+  
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 100%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .belenco-logo {
+    width: 180px;
+  }
+
+  .belenco-logo-text {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: 1.18px;
+    text-align: justify;
+    color: #58677c;
+  }
+  
+  .main-owl {
+    background-color: #52274e;
+    height: 100%;
+  }
+  
+  .item h4 {
+    font-family: KohinoorBangla;
+    font-size: 25px;
+    line-height: 1.4;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 25%;
+  }
+  
+  .owl-theme {
+    color: white;
+  }
+  
+  
+  /* about-us */
+  
+  .about-us {
+    margin-top: 5%;
+  }
+  
+  .corporate-banner {
+    margin-top: -0.5%;
+  }
+  
+  .about-map {
+    margin-left: -4%;
+  }
+  
+  .about-us-title {
+    font-family: KohinoorBangla;
+    font-size: 36px;
+    letter-spacing: -0.92px;
+    text-align: center;
+    color: #58677c;
+    font-weight: 300;
+  }
+  
+  .about-us-text {
+    font-family: KohinoorBangla;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.36;
+    color: #58677c;
+    margin-top: 20%;
+  }
+  
+  .btn-outline-light {
+    color: #52274e !important;
+    border-color: #52274e !important;
+    padding: 3%;
+    border-radius: 1px;
+    width: 50%;
+  }
+  
+  /* unique */
+  
+  .unique {
+    margin-top: 5%;
+    background-color: #ebeef0;
+  }
+  
+  .unique-title {
+    font-family: KohinoorBangla;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    color: #52274e;
+    margin-top: 20%;
+  }
+  
+  .unique-text {
+    font-family: KohinoorBangla;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #58677c;
+  }
+
+  
+  /* footer */
+  
+  .footer1-4 {
+    background-color: #ebeef0;
+    
+  }
+  
+  .footer2-4 {
+    background-color: #52274e;
+  }
+  
+  .footer3-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer4-4 {
+    background-color: #52274e;
+    border: solid 1px #52274e;
+    border-left-color: #979797;
+    padding: 1%;
+  }
+  
+  .footer-logo {
+    width: 179px;
+    height: 52px;
+    margin-top: 12%;
+    margin-left: -15%;
+  }
+  
+  .footer-logo-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #6d6d6d;
+  
+  }
+  
+  .footer-social-media-text1 {
+    font-family: KohinoorBangla;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: 0.54px;
+    color: #fff;
+    margin-top: 10%;
+  }
+  
+  .footer-social-media-text2 {
+    font-family: KohinoorBangla;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: 0.6px;
+    color: #fff;
+  }
+  
+  .footer-number, .footer-message {
+    margin-top: -4%;
+  }
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-location-dot, .fa-whatsapp, .fa-telegram {
+    color: white;
+  }
+  
+  .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-text {
+    font-family: KohinoorBangla;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  ul{
+    list-style-type:none;
+    }
+  
+  
+   /* venus */
+  
+   .venus {
+     margin-top: 1%;
+     margin-bottom: 1%;
+   }
+  
+   /* corporate */
+  
+   .corporate {
+     margin-top: 5%;
+   }
+   .corporate-header-banner {
+     background-image: url("/img/kurumsal-banner.webp");
+     padding: 5%;
+   }
+  
+   .banner-title {
+    font-family: KohinoorBangla;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: -5%;
+   }
+  
+   .corporate-way {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-top: -5.5%;
+    
+   }
+  
+   
+  .corporate-way a {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    text-align: justify;
+    color: #fff;
+    text-decoration-line: none;
+    margin-left: -35%;
+   }
+  
+   .accordion-item {
+    background-color: #ebeef0;
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #58677c;
+   }
+  
+   .accordion-button{
+     background-color: #52274e; 
+     color: white;
+   }
+  
+   .accordion-button:not(.collapsed) {
+    background-color: #52274e; 
+    color: white;
+  }
+  
+   .corporate-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 4%;
+    margin-top: 2%;
+   }
+  
+   .corporate-alt-text {
+    font-family: KohinoorBangla;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: justify;
+    color: #58677c;
+    padding: 4%;
+   }
+  
+   .Line2 {
+    width: 62px;
+    height: 2px;
+    margin: 0px 241px 0px 21px;
+    background-color: #000;
+   }
+  
+   .corporate-owl {
+     margin-left: -7%;
+     background-color: white;
+   }
+  
+   .owl-nav span{
+    color: #52274e;
+    font-size: 400%;
+   }
+  
+  .owl-theme owl-nav {
+     width: 43px;
+     margin-left: 105%;
+     margin-top: -11%;
+   }
+  
+   /* contact-us */
+  
+   .contact-us-contact {
+     margin-top: 5%;
+   }
+   .contactus-header-banner {
+    background-image: url("/img/contact-banner.webp");
+    padding: 4.5%;
+  }
+  
+  .contact-us-text {
+    font-family: KohinoorBangla;
+    font-size: 16px;
+    color: #58677c;
+  }
+  
+  .contact-us-alt-title {
+    font-family: KohinoorBangla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: -15%;
+    margin-top: 5%;
+   }
+  
+   .fa-location-pin , .fa-envelope , .fa-phone-volume {
+     color: #52274e;
+   }
+  
+   .Line3 {
+    width: 62px;
+    height: 2px;
+    margin-top: 20%;
+    background-color: #000;
+   }
+  
+   .Line4 {
+    width: 62px;
+    height: 2px;
+    margin-top: 16%;
+    background-color: #000;
+    margin-bottom: 5%;
+   }
+  
+   .protection-policy-text {
+    font-family: KohinoorBangla;
+    font-size: 14px;
+    color: #52274e;
+   }
+  
+   .form-check-input:checked {
+    background-color: #52274e;
+    border-color: #52274e;
+  }
+  
+  .btn-dark {
+    background-color: #52274e;
+    width: 100%;
+    align-content: flex-end;
+  }
+  
+  .btn-dark:hover {
+    background-color: #52274e !important;
+  }
+}
